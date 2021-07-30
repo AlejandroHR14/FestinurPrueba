@@ -1,0 +1,5 @@
+.flex__container{
+	display: flex;
+	height: 900px;
+	margin: 30px 15px;
+}

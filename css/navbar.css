@@ -16,12 +16,18 @@
 	margin-top: 25px;
 }
 
+.navbar__responsive ul{
+	margin-right: 7px;
+}
+
+
 .navbar__responsive ul li{
 	display: inline;
 }
 
 .navbar__responsive ul li a{
 	padding: 15px;
+	font-size: 16px;
 }
 
 .responsivebtn{
