@@ -26,11 +26,13 @@
 
 .responsivebtn{
 	background: none;
-	border: none;
+	border: 2px solid #c8a03f;
+	border-radius: 10px;
 	float: right;
 	display: none;
-	margin-top: 15px;
+	margin-top: 10px;
 	margin-right: 10px;
+	padding: 4px 7px
 }
 
 @media screen and (max-width: 500px){
@@ -56,6 +58,11 @@
 
 	.navbar__responsive ul li a{
 		padding: 0;
+		animation-name: lyrics;
+		animation-duration: 2s;
+		animation-iteration-count: infinite;
+		animation-delay: .5s;
+		animation-timing-function: ease-in-out;
 	}
 
 	.responsivebtn{
@@ -66,5 +73,17 @@
 @media screen and (min-width: 501px){
 	.navbar__responsive{
 		display: block !important
+	}
+}
+
+@keyframes lyrics{
+	0%{
+		color: #fff;
+	}
+	50%{
+		color: #c8a03f
+	}
+	100%{
+		color: #fff;
 	}
 }
