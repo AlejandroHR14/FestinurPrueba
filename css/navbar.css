@@ -1,0 +1,63 @@
+.navbar{
+	width: 100%;
+	height: 65px;
+	background: #00396f;
+}
+
+
+#logo img{
+	margin-top: 5px;
+	margin-left: 10px;
+	width: 115px;
+}
+
+.navbar__responsive{
+	float: right;
+	margin-top: -40px;
+}
+
+.navbar__responsive ul li{
+	display: inline;
+}
+
+.navbar__responsive ul li a{
+	padding: 15px;
+}
+
+.responsivebtn{
+	background: none;
+	border: none;
+	float: right;
+	display: none;
+	margin-top: 15px;
+	margin-right: 10px;
+}
+
+@media screen and (max-width: 500px){
+	.navbar__responsive{
+		margin-top: 0;
+		width: 100%;
+		height: auto;
+		background: #009cdd;
+		border-top: 3px solid #c8a03f;
+		text-align: center;
+		display: none;
+
+	}
+
+	.navbar__responsive ul li{
+		display: block;
+		padding: 10px;
+		border-bottom: 2px solid #c8a03f;
+	}
+
+	.responsivebtn{
+		display: block;
+	}
+}
+
+@media screen and (min-width: 501px){
+	.navbar__responsive{
+		display: block !important
+	}
+}
