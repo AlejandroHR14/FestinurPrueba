@@ -10,13 +10,14 @@
 }
 
 .footer h3{
-	margin: 8px 0;
+	margin: 8px;
 }
-.footer p{
-	margin: 8px 0;
+.footer p:nth-child(2){
+	margin-top: 25px;
 }
 .footer p:nth-child(3){
 	margin-top: 50px;
+	margin-bottom: 10px;
 }
 
 .img__container{
