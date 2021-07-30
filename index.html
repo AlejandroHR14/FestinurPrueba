@@ -10,26 +10,45 @@
 	<title>Festinur</title>
 	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/preload.css">
 	<link rel="stylesheet" href="css/styles.css">
 	<link rel="stylesheet" href="css/navbar.css">
 	
 </head>
-<body>
-	<nav class="navbar">
-		<a href="https://www.nur.edu/" id="logo" target="_BLANK"><img src="img/logoT.png" alt="Universidad Nur"></a>
-		<button class="responsivebtn"><img src="img/menu.png" alt="Menú"></button>
-		<div class="navbar__responsive">
-			<ul>
-				<li><a href="">Inicio</a></li>
-				<li><a href="">Ver Proyectos</a></li>
-				<li><a href="">About Us</a></li>
-			</ul>
+<body class="preload">
+	<div class="div__preload">
+		<h3 class="loadingText">La página está cargando...</h3>
+		<img src="img/logoT.png" alt="Logo Universidad Nur" title="Universidad Nur">
+		<div class="word">
+			<span>F</span>
+			<span>E</span>
+			<span>S</span>
+			<span>T</span>
+			<span>I</span>
+			<span>N</span>
+			<span>U</span>
+			<span>R</span>
 		</div>
-
-	</nav>
-
+	</div>
 	
+	<header>
+		<nav class="navbar">
+			<a href="https://www.nur.edu/" id="logo" target="_BLANK"><img src="img/logoT.png" alt="Universidad Nur"></a>
+			<button class="responsivebtn"><img src="img/menu.png" alt="Menú"></button>
+			<div class="navbar__responsive">
+				<ul>
+					<li><a href="">Inicio</a></li>
+					<li><a href="">Ver Proyectos</a></li>
+					<li><a href="">About Us</a></li>
+				</ul>
+			</div>
 
+		</nav>
+	</header>
+	
+	
 <script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/function.js"></script>
+<script type="text/javascript" src="js/btnNavbar.js"></script>
+<script type="text/javascript" src="js/preloadAnimation.js"></script>
+<script type="text/javascript" src="js/loadingFunction.js"></script>
 </body>
