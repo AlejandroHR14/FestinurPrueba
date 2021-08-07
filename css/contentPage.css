@@ -1,31 +1,11 @@
-
-.title {
-  font-size: 2.5rem;
-  margin: 20px 0;
+.bienvenida {
+  padding: 2rem 0;
+  background: #191919 ;
+  color: #f4f4f4;
 }
 
-
-.container {
-  max-width: 960px;
-  margin: auto;
-  overflow: hidden;
-  padding: 3rem 1rem;
-}
-
-.grid-2 {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(2, 1fr);
-  
-}
-
-.padding{
-  padding: 0 15px;
-}
-
-.text-center {
-  text-align: center;
-  margin: auto;
+.informacion{
+  color: #333;
 }
 
 .about{
@@ -36,6 +16,32 @@
   top: 1px;
 }
 
+.grid-2 {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+
+.title {
+  font-size: 2.5rem;
+  margin: 20px 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  overflow: hidden;
+  padding: 3rem 1rem;
+}
+
+
+.text-center {
+  text-align: center;
+  margin: auto;
+}
+
+
 .justify{
   text-align: justify;
 }
@@ -44,29 +50,15 @@
   margin: 0 auto;
 }
 
-.services {
-  padding: 2rem 0;
-  background: #191919 ;
-  color: #f4f4f4;
-}
 
-.progamming{
-  margin: 30px 0;
-}
-
-.feria{
-  color: #333
-}
-
-
-.introduccion-div__img img{
+.bienvenida-div__img img{
   width: 92%;
   height: auto;
   border-radius: 7px;
 }
 
 @supports(object-fit: cover){
-    .introduccion-div__img img{
+    .bienvenida-div__img img{
       height: 92%;
       object-fit: cover;
       object-position: center center;
@@ -81,7 +73,7 @@
     grid-template-columns: 1fr;
   }
 
-  .services div {
+  .bienvenida div {
     padding: 1.4rem 1rem;
   }
 
