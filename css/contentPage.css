@@ -1,0 +1,88 @@
+
+.title {
+  font-size: 2.5rem;
+  margin: 20px 0;
+}
+
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  overflow: hidden;
+  padding: 3rem 1rem;
+}
+
+.grid-2 {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  
+}
+
+.padding{
+  padding: 0 15px;
+}
+
+.text-center {
+  text-align: center;
+  margin: auto;
+}
+
+.about{
+  padding: 2rem 0;
+  background: #013773 ;
+  color: #f4f4f4;
+  position: relative;
+  top: 1px;
+}
+
+.justify{
+  text-align: justify;
+}
+
+.center{
+  margin: 0 auto;
+}
+
+.services {
+  padding: 2rem 0;
+  background: #191919 ;
+  color: #f4f4f4;
+}
+
+.progamming{
+  margin: 30px 0;
+}
+
+.feria{
+  color: #333
+}
+
+
+.introduccion-div__img img{
+  width: 92%;
+  height: auto;
+  border-radius: 7px;
+}
+
+@supports(object-fit: cover){
+    .introduccion-div__img img{
+      height: 92%;
+      object-fit: cover;
+      object-position: center center;
+    }
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 565px) {
+  
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .services div {
+    padding: 1.4rem 1rem;
+  }
+
+}
