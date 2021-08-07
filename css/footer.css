@@ -44,4 +44,12 @@
 	.img__container{
 		flex-direction: column;
 	}
+	.img__container a:hover img{
+		transition: none;
+	}
+
+	.img__container a:hover img{
+		transform: none;
+	}
+
 }
