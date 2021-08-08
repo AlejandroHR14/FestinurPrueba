@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+button{
+  border-style: none;
+}
+
 .slider {
   position: relative;
   width: 90vw;
@@ -18,7 +22,6 @@
   .slider {
     width: 95vw;
     height: 50vh;
-    
   }
   
 }
@@ -27,6 +30,14 @@
   .slider {
     width: 80vw;
     height: 25vh;
+  }
+
+  .slider__control{
+    width: 0 !important;
+  }
+  .slider__control--right{
+    left: 95% !important;
+    width: 0 !important;
   }
 }
 
