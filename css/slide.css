@@ -32,12 +32,10 @@ button{
     height: 25vh;
   }
 
-  .slider__control{
+  .slider__control, .slider__control--right{
     background: none !important;
   }
-  .slider__control--right{
-    background: none !important;
-  }
+  
 }
 
 .slider__slides {
