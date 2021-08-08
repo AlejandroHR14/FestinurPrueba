@@ -33,11 +33,10 @@ button{
   }
 
   .slider__control{
-    width: 0 !important;
+    background: none !important;
   }
   .slider__control--right{
-    left: 95% !important;
-    width: 0 !important;
+    background: none !important;
   }
 }
 
