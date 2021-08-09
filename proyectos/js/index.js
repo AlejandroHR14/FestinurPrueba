@@ -11,7 +11,7 @@ window.onload = function getData(){
 			dividirCadena(linea, '\n');
 		} 
 	} 
-	xmlhttp.open("GET", "/proyectos/datos/DatosGuardados.txt", true); 
+	xmlhttp.open("GET", "https://github.com/AlejandroHR14/FestinurPrueba/blob/master/proyectos/datos/DatosGuardados.txt", true); 
 	xmlhttp.send();
 }
 
@@ -27,3 +27,4 @@ function dividirCadena(cadenaADividir,separador) {
    document.getElementById("video1").src=aa[2];
    //document.getElementById("video1").innerHTML = kk[2];
 }
+//            /proyectos/datos/DatosGuardados.txt
