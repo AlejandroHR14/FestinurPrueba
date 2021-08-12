@@ -7,8 +7,7 @@
   width: 90vw;
   height: 90vh;
   overflow: hidden;
-  margin-inline:  auto;
-  margin-top: 10px;
+  margin: auto;
 }
 
 .slider button{
