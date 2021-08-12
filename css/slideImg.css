@@ -33,7 +33,7 @@
   
 }
 
-@media screen and (min-width: 300px) and (max-width: 749px){
+@media screen and (min-width: 200px) and (max-width: 499px){
   .slider {
     width: 80vw;
     height: 25vh;
@@ -53,8 +53,31 @@
   .slider__control, .slider__control--right{
     background: none !important;
   }
-  
 }
+
+@media screen and (min-width: 500px) and (max-width: 749px){
+  .slider {
+    width: 85vw;
+    height: 40vh;
+  }
+
+  .slide{
+    width: 85vw !important;
+    height: 40vh !important;
+  }
+
+  .slide__inner{
+    width: 85vw !important;
+    height: 40vh !important;
+    background-size: 85vw 40vh !important;
+  }
+
+  .slider__control, .slider__control--right{
+    background: none !important;
+  }
+}
+
+
 
 .slider__control {
   display: flex;
