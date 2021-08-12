@@ -20,3 +20,11 @@ window.onload = function(){
 	$(".div__loading").fadeOut();
 	$(".loading").removeClass('loading');
 }
+
+
+/*function loading() {
+ 
+	$(".div__preload").fadeOut();
+	$(".preload").removeClass('preload');
+ 
+}setTimeout(loading,7000);*/
