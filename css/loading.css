@@ -7,7 +7,7 @@
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;
 	background: #009cdd;
 	color: #fff;
@@ -18,7 +18,17 @@
 }
 
 
-.div--loading img{
+.loading-text{
+	position: absolute;
+	top: 30px;
+}
+
+.div-img{
+	position: absolute;
+	bottom: 20px;
+}
+
+.div-img img{
 	width: 25vh;
 }
 
