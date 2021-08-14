@@ -1,4 +1,4 @@
-const spans = document.querySelectorAll('.word span');
+const spans = document.querySelectorAll('.word--animation span');
 
 spans.forEach((span, idx) => {
 	span.addEventListener('click', (e) => {
@@ -17,14 +17,14 @@ spans.forEach((span, idx) => {
 
 
 window.onload = function(){
-	$(".div__loading").fadeOut();
+	$(".div--loading").fadeOut();
 	$(".loading").removeClass('loading');
 }
 
 
 /*function loading() {
  
-	$(".div__preload").fadeOut();
-	$(".preload").removeClass('preload');
+	$(".div--loading").fadeOut();
+	$(".loading").removeClass('loading');
  
 }setTimeout(loading,7000);*/

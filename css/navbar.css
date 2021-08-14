@@ -70,12 +70,13 @@
 	}
 
 	.navbar__responsive ul li a{
+		display: block;
 		padding: 0;
-		animation-name: lyrics;
+		/*animation-name: lyrics;
 		animation-duration: 2s;
 		animation-iteration-count: infinite;
 		animation-delay: .5s;
-		animation-timing-function: ease-in-out;
+		animation-timing-function: ease-in-out;*/
 	}
 
 	.responsivebtn{
@@ -91,7 +92,7 @@
 	}
 }
 
-@keyframes lyrics{
+/*@keyframes lyrics{
 	0%{
 		color: #fff;
 	}
@@ -101,4 +102,4 @@
 	100%{
 		color: #fff;
 	}
-}
+}*/

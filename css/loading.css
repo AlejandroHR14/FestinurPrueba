@@ -3,76 +3,64 @@
 .loading{
 	overflow: hidden;
 }
-.div__loading{
+.div--loading{
 	height: 100vh;
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
+	justify-content: space-around;
 	align-items: center;
 	background: #009cdd;
 	color: #fff;
 	text-shadow: black 0.1em 0.1em 0.2em;
 }
-.div__loading span{
+.div--loading span{
 	padding: 0 7px;
 }
 
-.loadingText {
-	position: absolute;
-	text-align: center;
-	top: 43px;
-}
 
-.div__loading img{
-	position: absolute;
-	bottom: 0;
+.div--loading img{
 	width: 25vh;
 }
 
 
 @media screen and (max-width: 328px){
-	.div__loading span{
+	.div--loading span{
 		padding: 7px 4px;
 	}
-	.word{
+	.word--animation{
 		width: 80%;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
 	}
 }
 
 @media screen and (min-width: 329px) and (max-width: 407px){
-	.div__loading span{
+	.div--loading span{
 		padding: 7px 4px;
 	}
-	.word{
+	.word--animation{
 		width: 70%;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
 	}
 }
 
 @media screen and (min-width: 408px) and (max-width: 474px){
-	.div__loading span{
+	.div--loading span{
 		padding: 7px 4px;
 	}
-	.word{
+	.word--animation{
 		width: 60%;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
 	}
 }
 
 
 
-.word {
+.word--animation {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 	font-family: 'Anton', sans-serif;
 	perspective: 1000px; 
 }
 
-.word span {
+.word--animation span {
 	cursor: pointer;
 	display: inline-block;
 	font-size: 100px;
@@ -80,35 +68,35 @@
 	line-height: .8;
 }
 
-.word span:nth-child(1).active {
+.word--animation span:nth-child(1).active {
 	animation: balance 1.5s ease-out;
 	transform-origin: bottom left;
 }
-.word span:nth-child(2).active {
+.word--animation span:nth-child(2).active {
 	animation: shrinkjump 1s ease-in-out;
 	transform-origin: bottom center;
 }
-.word span:nth-child(3).active {
+.word--animation span:nth-child(3).active {
 	animation: falling 2s ease-out;
 	transform-origin: bottom center;
 }
-.word span:nth-child(4).active {
+.word--animation span:nth-child(4).active {
 	animation: rotate 1s ease-out;
 }
-.word span:nth-child(5).active {
+.word--animation span:nth-child(5).active {
 	animation: toplong 1.5s linear;
 }
 
-.word span:nth-child(6).active {
+.word--animation span:nth-child(6).active {
 	animation: falling 2s ease-out;
 	transform-origin: bottom center;
 }
 
-.word span:nth-child(7).active {
+.word--animation span:nth-child(7).active {
 	animation: rotate 1s ease-out;
 }
 
-.word span:nth-child(8).active {
+.word--animation span:nth-child(8).active {
 	animation: shrinkjump 1s ease-in-out;
 	transform-origin: bottom center;
 }
