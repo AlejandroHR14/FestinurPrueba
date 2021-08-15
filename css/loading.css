@@ -27,7 +27,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	align-self: auto;
+	margin: auto;
 	font-family: 'Anton', sans-serif;
 	perspective: 1000px; 
 }
@@ -50,7 +50,6 @@
 	width: 184.2px;
 	height: 90.6px;
 }
-
 
 
 
@@ -86,8 +85,6 @@
 
 
 
-
-
 .word--animation span:nth-child(1).active {
 	animation: balance 1.5s ease-out;
 	transform-origin: bottom left;
@@ -120,6 +117,7 @@
 	animation: shrinkjump 1s ease-in-out;
 	transform-origin: bottom center;
 }
+
 
 
 @keyframes balance {
