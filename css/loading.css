@@ -23,11 +23,9 @@
 }
 
 .word--animation {
-	display: flex;
 	position: absolute;
-	flex-wrap: wrap;
-	justify-content: center;
 	align-self: center;
+	text-align: center;
 	font-family: 'Anton', sans-serif;
 	perspective: 1000px; 
 }
@@ -55,7 +53,7 @@
 		padding: 7px 4px;
 	}
 	.word--animation{
-		width: 80%;
+		width: 85%;
 	}
 }
 
@@ -64,7 +62,7 @@
 		padding: 7px 4px;
 	}
 	.word--animation{
-		width: 70%;
+		width: 75%;
 	}
 }
 
@@ -73,7 +71,7 @@
 		padding: 7px 4px;
 	}
 	.word--animation{
-		width: 60%;
+		width: 65%;
 	}
 }
 
