@@ -1,7 +1,7 @@
 .navbar{
 	width: 100%;
 	height: 65px;
-	background: #00396f;
+	background: var(--azul);
 }
 
 
@@ -54,9 +54,9 @@
 		margin-top: -1px;
 		width: 100%;
 		height: auto;
-		background: #009cdd;
-		border-top: 3px solid #c8a03f;
-		border-bottom: 3px solid #c8a03f;
+		background: var(--celeste);
+		border-top: 3px solid var(--dorado-ori);
+		border-bottom: 3px solid var(--dorado-ori);
 		text-align: center;
 		display: none;
 	}
@@ -91,7 +91,7 @@
 
 	.navbar__responsive ul li a:hover{
 		transition: .8s;
-		color: #c8a00a;
+		color: var(--dorado-mod);
 	}
 }
 

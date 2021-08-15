@@ -1,17 +1,17 @@
 .bienvenida {
   padding: 2rem 0;
-  background: #191919 ;
-  color: #f4f4f4;
+  background: var(--gris-oscuro);
+  color: var(--casi-blanco);
 }
 
 .informacion{
-  color: #333;
+  color: var(--gris-claro);
 }
 
 .about{
   padding: 2rem 0;
-  background: #013773 ;
-  color: #f4f4f4;
+  background: var(--footer) ;
+  color: var(--casi-blanco);
   position: relative;
   top: 1px;
 }

@@ -15,7 +15,16 @@ a:visited {
 }
 
 
-
+:root{
+	--azul: #00396f;
+	--celeste: #009cdd;
+	--dorado-ori: #c8a03f;
+	--dorado-mod: #c8a00a;
+	--gris-claro: #333;
+	--gris-oscuro: #191919;
+	--casi-blanco: #f4f4f4;
+	--footer: #013773;
+}
 
 
 

@@ -97,7 +97,7 @@
   left: 95%;
 }
 .slider__control:hover {
-  background-color: #2da6ff;
+  background-color: var(--celeste);
 }
 .slider__control-line {
   position: absolute;

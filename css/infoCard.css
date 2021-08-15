@@ -14,11 +14,11 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
-  background-color: #00396f;
+  background-color: var(--azul);
 }
 .backbox div{
   margin: 100px 40px;
-  color:white;
+  color: #fff;
   transition: all 500ms;
 
 }
@@ -47,7 +47,7 @@
 }
 .backbox button:hover{
   background: #fff;
-  color: #009cdd;
+  color: var(--celeste);
 }
 
 
