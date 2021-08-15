@@ -3,64 +3,26 @@
 .loading{
 	overflow: hidden;
 }
+
 .div--loading{
 	height: 100vh;
 	display: flex;
-	/*flex-direction: column;*/
-	justify-content: center;
+	flex-direction: column;
+	justify-content: center !important;
 	align-items: center;
 	background: #009cdd;
 	color: #fff;
 	text-shadow: black 0.1em 0.1em 0.2em;
 }
+
 .div--loading span{
 	padding: 0 7px;
 }
-
 
 .loading-text{
 	position: absolute;
 	top: 30px;
 }
-
-.div-img{
-	position: absolute;
-	bottom: 20px;
-}
-
-.div-img img{
-	width: 25vh;
-}
-
-
-@media screen and (max-width: 328px){
-	.div--loading span{
-		padding: 7px 4px;
-	}
-	.word--animation{
-		width: 80%;
-	}
-}
-
-@media screen and (min-width: 329px) and (max-width: 407px){
-	.div--loading span{
-		padding: 7px 4px;
-	}
-	.word--animation{
-		width: 70%;
-	}
-}
-
-@media screen and (min-width: 408px) and (max-width: 474px){
-	.div--loading span{
-		padding: 7px 4px;
-	}
-	.word--animation{
-		width: 60%;
-	}
-}
-
-
 
 .word--animation {
 	display: flex;
@@ -77,6 +39,59 @@
 	user-select: none;
 	line-height: .8;
 }
+
+
+.div-img{
+	position: absolute;
+	bottom: 20px;
+}
+
+
+
+
+@media screen and (max-width: 328px){
+	.div--loading span{
+		padding: 7px 4px;
+	}
+	.word--animation{
+		width: 80%;
+	}
+	.div-img img{
+		width: 122.8px;
+		height: 60.4px;
+	}
+}
+
+@media screen and (min-width: 329px) and (max-width: 407px){
+	.div--loading span{
+		padding: 7px 4px;
+	}
+	.word--animation{
+		width: 70%;
+	}
+	.div-img img{
+		width: 184.2px;
+		height: 90.6px;
+	}
+}
+
+@media screen and (min-width: 408px) and (max-width: 474px){
+	.div--loading span{
+		padding: 7px 4px;
+	}
+	.word--animation{
+		width: 60%;
+	}
+
+	.div-img img{
+		width: 245.6px;
+		height: 120.8px;
+	}
+}
+
+
+
+
 
 .word--animation span:nth-child(1).active {
 	animation: balance 1.5s ease-out;
