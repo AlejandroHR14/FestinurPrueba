@@ -7,7 +7,9 @@
 .div--loading{
 	height: 100vh;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
+	align-items: center;
 	background: #009cdd;
 	color: #fff;
 	text-shadow: black 0.1em 0.1em 0.2em;
@@ -19,7 +21,7 @@
 
 .loading-text {
 	position: absolute;
-	top: 35px;
+	top: 25px;
 }
 
 .word--animation {
@@ -27,6 +29,7 @@
 	flex-wrap: wrap;
 	justify-content: center;
 	align-content: center;
+	height: 95px;
 	font-family: 'Anton', sans-serif;
 	perspective: 1000px; 
 }
@@ -41,7 +44,7 @@
 
 .div-img{
 	position: absolute;
-	bottom: 20px;
+	bottom: 0;
 }
 
 .div-img img{
