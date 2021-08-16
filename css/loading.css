@@ -5,9 +5,12 @@
 }
 
 .div--loading{
+	display: grid;
+	width: 100vw;
 	height: 100vh;
-	display: flex;
-	justify-content: center;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(3, 1fr);
+	justify-items: center;
 	background: var(--celeste);
 	color: #fff;
 	text-shadow: black 0.1em 0.1em 0.2em;
@@ -18,12 +21,11 @@
 }
 
 .loading-text {
-	position: absolute;
-	top: 25px;
+	height: fit-content;
+	padding-top: 25px;
 }
 
 .word--animation {
-	position: absolute;
 	align-self: center;
 	text-align: center;
 	font-family: 'Anton', sans-serif;
@@ -39,8 +41,8 @@
 }
 
 .div-img{
-	position: absolute;
-	bottom: 0;
+	height: fit-content;
+	align-self: end;
 }
 
 .div-img img{
