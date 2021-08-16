@@ -25,11 +25,20 @@
 	padding-top: 25px;
 }
 
+.safari .loading-text{
+	padding-top: 15px;
+}
+
 .word--animation {
 	align-self: center;
 	text-align: center;
 	font-family: 'Anton', sans-serif;
 	perspective: 1000px; 
+}
+
+.safari .word--animation{
+	height: fit-content;
+	align-self: unset;
 }
 
 .word--animation span {
@@ -43,6 +52,10 @@
 .div-img{
 	height: fit-content;
 	align-self: end;
+}
+
+.safari .div-img{
+	padding-bottom: 35px;
 }
 
 .div-img img{
