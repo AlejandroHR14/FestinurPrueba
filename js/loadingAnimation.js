@@ -18,7 +18,7 @@ spans.forEach((span, idx) => {
 
 
 
-/*window.onload = function(){
+window.onload = function(){
 	$(".div--loading").fadeOut();
 	$(".loading").removeClass('loading');
 }
