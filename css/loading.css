@@ -5,7 +5,7 @@
 }
 
 .div--loading{
-	height: 100vh;
+	height: 120vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -26,11 +26,12 @@
 
 .word--animation {
 	display: flex;
+	height: fit-content;
 	flex-wrap: wrap;
 	justify-content: center;
 	font-family: 'Anton', sans-serif;
 	perspective: 1000px;
-	transform: translateY(-40px);
+	transform: translateY(-10vh);
 }
 
 .word--animation span {
@@ -45,7 +46,7 @@
 .div--loading img{
 	position: absolute;
 	bottom: 0;
-	width: 25vh;
+	width: 22vh;
 }
 
 
