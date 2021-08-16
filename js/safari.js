@@ -4,7 +4,8 @@ var div_img = document.querySelector(".div-img");
 
 
 function safari() {
-	if (navigator.userAgent.indexOf() != -1) {
+	if (navigator.userAgent.indexOf() == -1) {
+		alert("Holi");
 		loading_text.style.paddingTop = '15px';
 		word_animation.style.height = 'fit-content';
 		word_animation.style.alignSelf = 'unset';
