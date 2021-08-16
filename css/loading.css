@@ -25,7 +25,7 @@
 	padding-top: 25px;
 }
 
-.safari .loading-text{
+#safari .loading-text{
 	padding-top: 15px;
 }
 
@@ -36,7 +36,7 @@
 	perspective: 1000px; 
 }
 
-.safari .word--animation{
+#safari .word--animation{
 	height: fit-content;
 	align-self: unset;
 }
@@ -54,7 +54,7 @@
 	align-self: end;
 }
 
-.safari .div-img{
+#safari .div-img{
 	padding-bottom: 35px;
 }
 
