@@ -31,7 +31,7 @@
 	justify-content: center;
 	font-family: 'Anton', sans-serif;
 	perspective: 1000px;
-	transform: translateY(-10vh);
+	transform: translateY(-5em);
 }
 
 .word--animation span {
