@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.video-container{
+	width: 100%;
+  height: calc(100vh - 65px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: var(--casi-blanco);
+  
+}
+
+.video-container h1{
+  font-family: 'Roboto' !important;
+  font-weight: 600;
+	font-size: 60px;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover;
+  filter: brightness(40%);
+}
+
+
+.scrollDown {
+  position: fixed;
+  bottom: 1em;
+  transition: transform 500ms ease;
+  transform-origin: bottom center;
+}
+
+.scrollDown > a > svg{
+  color: var(--casi-blanco);
+  width: 3.5em;
+  animation: upDown 1.5s linear infinite;
+}
+
+@keyframes upDown{
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(.5em);
+  }
+  100%{
+    transform: translateY(0);
+  }
+
+}
