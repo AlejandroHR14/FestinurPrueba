@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Anton|Roboto');
 
 .video-container{
 	width: 100%;
@@ -10,10 +9,11 @@
   justify-content: center;
   position: relative;
   color: var(--casi-blanco);
-  font-family: 'Poppins', 'Roboto', sans-serif;
+  
 }
 
 .video-container > h1{
+  font-family: 'Roboto', sans-serif;
 	font-size: 3.8em;
 }
 
